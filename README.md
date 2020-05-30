@@ -1,25 +1,18 @@
-# K-MEANS CLUSTERING | КЛАСТЕРИЗАЦИЯ МЕТОДОМ K-СРЕДНИХ
+# K-MEANS CLUSTERING
 
 ## Web App
 
-Данное веб-приложение - это реализация метода k-means. В качестве инструмента для создания графика и его работы использована chart.js.
-Начальный массив данных находится в data.js. Все вычисления проходят в k-means-algorithm.js. Основной файл app.js - где мы проходим циклом по алгоритму и меняем цвета точек. main.js - тут подключаем все наши js файлы.
-После запуска приложения появится папка build. Это уже построенные файлы css, html, js.
-Приложение запускается по адресу ttp://localhost:9000 сразу после таска gulp. Кроме того, после запуска мы можем дать ссылочку на тонель, который появится в терминале, после запуска проекта. 
-<img width="434px" src="https://github.com/al-vlasov/k-means_clustering/raw/master/img_for_readme/first.png">
-<img width="434px" src="https://github.com/al-vlasov/k-means_clustering/raw/master/img_for_readme/second.png">
+This web application is an implementation of the k-means method. Chart.js was used as a tool for creating a chart and its work.
+The initial data array is in data.js. All calculations take place in k-means-algorithm.js. The main app.js file is where we loop through the algorithm and change the colors of the dots. main.js - here we connect all our js files.
 
-## Start | Запуск
+<img width="434px" src="https://github.com/al-petrushin/k-means-clustering/tree/master/img_for_readme/first.png">
+<img width="434px" src="https://github.com/al-petrushin/k-means-clustering/tree/master/img_for_readme/second.png">
+
+
+## Start
 
 ```
-npm install - устанавливаем зависимоти node
-bower install - устанавливаем зависимости bower
-gulp - запускаем таском gulp.js
+npm install
+bower install
+gulp
 ```
-
-## I used: | Использовал:
-1. NodeJS - серверная платформа. 
-2. Gulp - таск менеджер. На нем организовал сборку статики (стили и скрипты). Использовал плагины для их сжатия, генерации сурсмап, генерации css из scss, подстановки префиксов в стили и т.д.
-3. Использовал препроцессор css - SASS. Использовал более новый синтаксис scss, а не sass.
-4. Пакетный менеджер Bower.
-5. Chart.js, jQuery и нативный JS.
