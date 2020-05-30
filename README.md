@@ -17,4 +17,4 @@ bower install
 gulp
 ```
 
-A. Petrushin. 2016
+```A. Petrushin. 2016```
